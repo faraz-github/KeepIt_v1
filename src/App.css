@@ -1,0 +1,64 @@
+/* Project Wide */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
+body{
+    background-color: #FF5C58;
+}
+
+/* Header Styling */
+.Header{
+    background-color: #FFEDD3;
+    font-family: 'Zilla Slab', serif;
+}
+
+/* Create Styling */
+.Create{
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCD2D1;
+    min-width: 350px;
+    max-width: 500px;
+    width: fit-content;
+    word-wrap: break-word;
+}
+
+.AddButton{
+    font-size: 2.5rem;
+    color: #FFEDD3;
+    border: none;
+    background-color: transparent;
+    text-shadow: black 0px 0 5px;
+}
+
+
+/* Notes Styling */
+.Notes{
+    margin-top: 5rem;
+}
+
+/* Note Styling */
+.Note{
+    background-color: #FCD2D1;
+    min-width: 300px;
+    width: fit-content;
+    word-wrap: break-word;
+    font-family: 'McLaren', cursive;
+}
+
+.DeleteButton{
+    font-size: 2rem;
+    color: #FFEDD3;
+    border: none;
+    background-color: transparent;
+    text-shadow: black 0px 0 5px;
+}
+
+
+/* Footer Styling */
+.Footer{
+    color: #FCD2D1;
+    z-index: -1;
+    font-family: 'Zilla Slab', serif;
+}
